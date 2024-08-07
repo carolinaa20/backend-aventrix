@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost:27017/BaseDeDatosProyectoFinal"); // connection string
+mongoose.connect("mongodb+srv://dianacarolinaa2024:juego@baseav.lqprta8.mongodb.net/?retryWrites=true&w=majority&appName=baseAV"); // connection string
 
 export default mongoose;

@@ -11,7 +11,7 @@ import seedPaymentMethod from "./seeders/paymentMethodSeeder.js";
 import seedDeveloper from "./seeders/developerSeeder.js";
 import seedShoop from "./seeders/shoopSeeder.js";
 
-const MONGODB_URI = "mongodb://localhost:27017/BaseDeDatosProyectoFinal";
+const MONGODB_URI = "mongodb+srv://dianacarolinaa2024:juego@baseav.lqprta8.mongodb.net/?retryWrites=true&w=majority&appName=baseAV";
 
 const seedDatabase = async () => {
   try {
