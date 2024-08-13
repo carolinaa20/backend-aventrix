@@ -17,7 +17,7 @@ async function seedVideogames() {
       cover:
         "https://th.bing.com/th/id/R.4266ff99c3051ddd2df9558a3eaa5184?rik=7XwdIM6%2fQitCZg&riu=http%3a%2f%2fcdn02.nintendo-europe.com%2fmedia%2fimages%2f11_square_images%2fgames_18%2fnintendo_switch_download_software%2fSQ_NSwitchDS_RocketLeague.jpg&ehk=mgsN3LUeEhTgZsz6lzzHW3tJHJ9LzkvTgfaYaJDEipQ%3d&risl=&pid=ImgRaw&r=0",
       videoId: "SgSX3gOrj60",
-      price: 0,
+      price: 45,
       description: [
         "Rocket League combina fútbol con conducción de alta velocidad, ofreciendo una experiencia de juego única y emocionante. Los jugadores controlan vehículos con cohetes que pueden chocar y volar por los aires para marcar goles espectaculares en arenas futuristas.",
 
@@ -84,7 +84,7 @@ async function seedVideogames() {
       cover:
         "https://quoramarketing.com/wp-content/uploads/2023/05/How-to-Force-Restart-Roblox.png",
       videoId: "sme76WoJ_-U",
-      price: 0,
+      price: 78,
       description: [
         "Roblox es una plataforma de juegos en línea y un sistema de creación de juegos que permite a los usuarios diseñar sus propios juegos y jugar a una amplia variedad de juegos creados por otros usuarios. Con una comunidad activa y diversa, Roblox ofrece una experiencia de juego única y personalizable.",
 
