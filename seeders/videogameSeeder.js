@@ -35,7 +35,7 @@ async function seedVideogames() {
       ],
       typeoffer: "665fcb959953ee0ba1099486",
     },
-
+    
     {
       _id: "664695e8cf29fe32661290db",
       name: "God of War Raganarok",
@@ -112,7 +112,7 @@ async function seedVideogames() {
       theme: "66484c191593a60f58e0c0a9",
       developer: "6647c8f0d5b0a90daa03fe2d",
       image: [
-        "https://image.api.playstation.com/vulcan/img/cfn/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.png",
+        "https://m.media-amazon.com/images/M/MV5BMWE1NjRiMGEtMTUyMy00ODVkLWE2OWMtY2VjZjc3OGEwN2Q5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
         "https://www.lifewire.com/thmb/TqLkviC4FT2b4knH_tS3-wtUzcY=/1920x1080/filters:no_upscale():max_bytes(150000):strip_icc()/kidsfunonlinegames-minecraft-5c02672646e0fb0001deb5c6.jpg",
       ],
       cover:
@@ -541,7 +541,7 @@ async function seedVideogames() {
       theme: "66484c191593a60f58e0c0a9",
       developer: "6647c8f0d5b0a90daa03fe2d",
       image: [
-        "https://zelda.nintendo.com/breath-of-the-wild/assets/media/wallpapers/tablet-1.jpg",
+        "https://tse4.mm.bing.net/th?id=OIP.I_BP_RmYtH-2J3VOkOb8_QHaEK&pid=Api&P=0&h=180",
         "https://th.bing.com/th/id/R.ff9dbae2b54ae58fb2d16654ef92d20b?rik=U35OItdkDrlG6Q&riu=http%3a%2f%2fimages.nintendolife.com%2fscreenshots%2f81284%2flarge.jpg&ehk=gvflXaFFV8Alz9esdw98X%2fJfvDcKob%2fj185fitS0rE0%3d&risl=&pid=ImgRaw&r=0",
       ],
       cover:
@@ -567,7 +567,7 @@ async function seedVideogames() {
       ],
       typeoffer: "665fcb959953ee0ba1099486",
     },
-
+    
     {
       _id: "664695bacf29fe32661290db",
       name: "Minecraft Dungeons",
