@@ -2,39 +2,39 @@ import VideoGame from "../models/VideoGame.js";
 
 async function seedVideogames() {
   const videogames = [
-    // {
-    //   _id: "664695bacf29fe32661290d9",
-    //   name: "Rocket League",
-    //   gamemode: "667a0facbb334619d489172c",
-    //   pegi: "66484727a7e41a4b4a090ac1",
-    //   gender: "667a44489260c47b462a9acd",
-    //   theme: "66484c121593a60f58e0c0a7",
-    //   developer: "6647c8f0d5b0a90daa03fe2d",
-    //   image: [
-    //     "https://m.media-amazon.com/images/M/MV5BMWE1NjRiMGEtMTUyMy00ODVkLWE2OWMtY2VjZjc3OGEwN2Q5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
-    //     "https://cdn2.unrealengine.com/egs-social-rocketleague-news-1920x1080-1920x1080-975383433.jpg",
-    //   ],
-    //   cover:
-    //     "https://th.bing.com/th/id/R.4266ff99c3051ddd2df9558a3eaa5184?rik=7XwdIM6%2fQitCZg&riu=http%3a%2f%2fcdn02.nintendo-europe.com%2fmedia%2fimages%2f11_square_images%2fgames_18%2fnintendo_switch_download_software%2fSQ_NSwitchDS_RocketLeague.jpg&ehk=mgsN3LUeEhTgZsz6lzzHW3tJHJ9LzkvTgfaYaJDEipQ%3d&risl=&pid=ImgRaw&r=0",
-    //   videoId: "SgSX3gOrj60",
-    //   price: 45,
-    //   description: [
-    //     "Rocket League combina fútbol con conducción de alta velocidad, ofreciendo una experiencia de juego única y emocionante. Los jugadores controlan vehículos con cohetes que pueden chocar y volar por los aires para marcar goles espectaculares en arenas futuristas.",
+    {
+      _id: "664695bacf29fe32661290d9",
+      name: "Rocket League",
+      gamemode: "667a0facbb334619d489172c",
+      pegi: "66484727a7e41a4b4a090ac1",
+      gender: "667a44489260c47b462a9acd",
+      theme: "66484c121593a60f58e0c0a7",
+      developer: "6647c8f0d5b0a90daa03fe2d",
+      image: [
+        "https://m.media-amazon.com/images/M/MV5BMWE1NjRiMGEtMTUyMy00ODVkLWE2OWMtY2VjZjc3OGEwN2Q5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "https://cdn2.unrealengine.com/egs-social-rocketleague-news-1920x1080-1920x1080-975383433.jpg",
+      ],
+      cover:
+        "https://th.bing.com/th/id/R.4266ff99c3051ddd2df9558a3eaa5184?rik=7XwdIM6%2fQitCZg&riu=http%3a%2f%2fcdn02.nintendo-europe.com%2fmedia%2fimages%2f11_square_images%2fgames_18%2fnintendo_switch_download_software%2fSQ_NSwitchDS_RocketLeague.jpg&ehk=mgsN3LUeEhTgZsz6lzzHW3tJHJ9LzkvTgfaYaJDEipQ%3d&risl=&pid=ImgRaw&r=0",
+      videoId: "SgSX3gOrj60",
+      price: 45,
+      description: [
+        "Rocket League combina fútbol con conducción de alta velocidad, ofreciendo una experiencia de juego única y emocionante. Los jugadores controlan vehículos con cohetes que pueden chocar y volar por los aires para marcar goles espectaculares en arenas futuristas.",
 
-    //     "El modo de un jugador de Rocket League permite a los jugadores perfeccionar sus habilidades en una variedad de desafíos y partidos contra la inteligencia artificial. Además, hay modos de temporada en los que los jugadores pueden competir en torneos y ligas para llegar a la cima.",
+        "El modo de un jugador de Rocket League permite a los jugadores perfeccionar sus habilidades en una variedad de desafíos y partidos contra la inteligencia artificial. Además, hay modos de temporada en los que los jugadores pueden competir en torneos y ligas para llegar a la cima.",
 
-    //     "El modo multijugador de Rocket League es altamente competitivo y adictivo, con partidas en línea que enfrentan a equipos de hasta cuatro jugadores. La comunicación y la coordinación son clave para el éxito, y los jugadores pueden personalizar sus vehículos con una amplia gama de opciones estéticas y funcionales para destacar en el campo.",
-    //   ],
-    //   systemRequirements: [
-    //     "SO: Windows 7",
-    //     "Procesador: 2.5 GHz Dual core",
-    //     "Memoria: 4 GB RAM",
-    //     "Gráficos: NVIDIA GeForce 760, AMD Radeon R7 270X, o superior",
-    //     "DirectX: 11",
-    //     "Almacenamiento: 20 GB",
-    //   ],
-    //   typeoffer: "665fcb959953ee0ba1099486",
-    // },
+        "El modo multijugador de Rocket League es altamente competitivo y adictivo, con partidas en línea que enfrentan a equipos de hasta cuatro jugadores. La comunicación y la coordinación son clave para el éxito, y los jugadores pueden personalizar sus vehículos con una amplia gama de opciones estéticas y funcionales para destacar en el campo.",
+      ],
+      systemRequirements: [
+        "SO: Windows 7",
+        "Procesador: 2.5 GHz Dual core",
+        "Memoria: 4 GB RAM",
+        "Gráficos: NVIDIA GeForce 760, AMD Radeon R7 270X, o superior",
+        "DirectX: 11",
+        "Almacenamiento: 20 GB",
+      ],
+      typeoffer: "665fcb959953ee0ba1099486",
+    },
     
     {
       _id: "664695e8cf29fe32661290db",
@@ -45,7 +45,7 @@ async function seedVideogames() {
       theme: "66484c191593a60f58e0c0a9",
       developer: "6647c929d5b0a90daa03fe31",
       image: [
-        "https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7",
+        "https://tse1.mm.bing.net/th?id=OIP.WfTgiK46WsBkoTZgjetSIwHaEK&pid=Api&P=0&h=180",
         "https://www.gamingtalker.it/wp-content/uploads/2021/09/God-of-War-Ragnarok_PS5_img03.jpg",
       ],
       cover: "https://i.redd.it/r90tvpqmjpb91.jpg",
@@ -112,7 +112,7 @@ async function seedVideogames() {
       theme: "66484c191593a60f58e0c0a9",
       developer: "6647c8f0d5b0a90daa03fe2d",
       image: [
-        "https://m.media-amazon.com/images/M/MV5BMWE1NjRiMGEtMTUyMy00ODVkLWE2OWMtY2VjZjc3OGEwN2Q5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "https://img.tecnomagazine.net/2014/09/Microsoft-confirma-la-compra-de-Mojang.jpg",
         "https://www.lifewire.com/thmb/TqLkviC4FT2b4knH_tS3-wtUzcY=/1920x1080/filters:no_upscale():max_bytes(150000):strip_icc()/kidsfunonlinegames-minecraft-5c02672646e0fb0001deb5c6.jpg",
       ],
       cover:
@@ -218,7 +218,7 @@ async function seedVideogames() {
       theme: "6682b48f6e737adf9e6b047f",
       developer: "6647c916d5b0a90daa03fe2f",
       image: [
-        "https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/aZKLRcjaZ8HL03ODxYMZDfaH.png",
+        "https://tse2.mm.bing.net/th?id=OIP.ClPQ43f1Km0HUm8fcXC9PwHaEK&pid=Api&P=0&h=180",
         "https://i.ytimg.com/vi/ZfZGe_C4vN0/maxresdefault.jpg",
       ],
       cover:
@@ -290,7 +290,7 @@ async function seedVideogames() {
       theme: "66484bf01593a60f58e0c0a3",
       developer: "6647c929d5b0a90daa03fe31",
       image: [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSouB_E-m8Z_Q5o5YnuBlgx-5sReea38Z7e5g&s",
+        "https://assetsio.reedpopcdn.com/co6m1m.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp",
         "https://th.bing.com/th/id/OIP.EV7RaSj2vNr9i4SfYuVeqAHaEK?rs=1&pid=ImgDetMain",
       ],
       cover:
@@ -469,7 +469,7 @@ async function seedVideogames() {
       theme: "66484c191593a60f58e0c0a9",
       developer: "6647c8f0d5b0a90daa03fe2d",
       image: [
-        "https://i.pinimg.com/originals/bf/27/84/bf278488ae0e3a42c1621345c5e44f57.jpg",
+        "https://tse4.mm.bing.net/th?id=OIP.FtxWKawAwzMaKl207l0cTAHaEo&pid=Api&P=0&h=180",
         "https://img.redbull.com/images/c_fill,g_auto,w_1500,h_1000/q_auto,f_auto/redbullcom/2017/04/07/1331852866239_2/gta-6-ecco-dove-vorremmo-fosse-ambientato-1",
       ],
       cover:
@@ -532,41 +532,41 @@ async function seedVideogames() {
       typeoffer: "668373f04e59362d77d5cc3c",
     },
 
-    // {
-    //   _id: "664695bacf29fe32661290da",
-    //   name: "The Legend of Zelda: Breath of the Wild",
-    //   gamemode: "667a103e1e8e1ad8cc7ffc9c",
-    //   pegi: "66484719a7e41a4b4a090abf",
-    //   gender: "667a1a826029915da03f68ee",
-    //   theme: "66484c191593a60f58e0c0a9",
-    //   developer: "6647c8f0d5b0a90daa03fe2d",
-    //   image: [
-    //     "https://tse4.mm.bing.net/th?id=OIP.I_BP_RmYtH-2J3VOkOb8_QHaEK&pid=Api&P=0&h=180",
-    //     "https://th.bing.com/th/id/R.ff9dbae2b54ae58fb2d16654ef92d20b?rik=U35OItdkDrlG6Q&riu=http%3a%2f%2fimages.nintendolife.com%2fscreenshots%2f81284%2flarge.jpg&ehk=gvflXaFFV8Alz9esdw98X%2fJfvDcKob%2fj185fitS0rE0%3d&risl=&pid=ImgRaw&r=0",
-    //   ],
-    //   cover:
-    //     "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_1920,q_75/MNS/NOE/70010000000023/SQ_NSwitch_TheLegendOfZeldaBreathOfTheWild_E",
-    //   videoId: "zw47_q9wbBE",
-    //   price: 60,
-    //   description: [
-    //     "The Legend of Zelda: Breath of the Wild rompe con las convenciones de los juegos anteriores de la serie The Legend of Zelda y te transporta a un mundo de descubrimiento, exploración y aventura. Viaja a través de vastos campos, bosques y picos de montañas mientras descubres qué ha sido del reino de Hyrule en esta impresionante aventura al aire libre.",
+    {
+      _id: "664695bacf29fe32661290da",
+      name: "The Legend of Zelda: Breath of the Wild",
+      gamemode: "667a103e1e8e1ad8cc7ffc9c",
+      pegi: "66484719a7e41a4b4a090abf",
+      gender: "667a1a826029915da03f68ee",
+      theme: "66484c191593a60f58e0c0a9",
+      developer: "6647c8f0d5b0a90daa03fe2d",
+      image: [
+        "https://tse4.mm.bing.net/th?id=OIP.I_BP_RmYtH-2J3VOkOb8_QHaEK&pid=Api&P=0&h=180",
+        "https://th.bing.com/th/id/R.ff9dbae2b54ae58fb2d16654ef92d20b?rik=U35OItdkDrlG6Q&riu=http%3a%2f%2fimages.nintendolife.com%2fscreenshots%2f81284%2flarge.jpg&ehk=gvflXaFFV8Alz9esdw98X%2fJfvDcKob%2fj185fitS0rE0%3d&risl=&pid=ImgRaw&r=0",
+      ],
+      cover:
+        "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_1920,q_75/MNS/NOE/70010000000023/SQ_NSwitch_TheLegendOfZeldaBreathOfTheWild_E",
+      videoId: "zw47_q9wbBE",
+      price: 60,
+      description: [
+        "The Legend of Zelda: Breath of the Wild rompe con las convenciones de los juegos anteriores de la serie The Legend of Zelda y te transporta a un mundo de descubrimiento, exploración y aventura. Viaja a través de vastos campos, bosques y picos de montañas mientras descubres qué ha sido del reino de Hyrule en esta impresionante aventura al aire libre.",
 
-    //     "En Breath of the Wild, los jugadores tienen total libertad para explorar el mundo abierto y descubrir nuevos desafíos y secretos en cada rincón. El juego ofrece una jugabilidad innovadora y desafiante que recompensa la creatividad y la exploración, con una historia épica que se revela gradualmente mientras avanzas en tu viaje.",
+        "En Breath of the Wild, los jugadores tienen total libertad para explorar el mundo abierto y descubrir nuevos desafíos y secretos en cada rincón. El juego ofrece una jugabilidad innovadora y desafiante que recompensa la creatividad y la exploración, con una historia épica que se revela gradualmente mientras avanzas en tu viaje.",
 
-    //     "El combate en Breath of the Wild es fluido y emocionante, con una variedad de armas y tácticas disponibles para los jugadores. Desde espadas y arcos hasta bombas y poderes mágicos, los jugadores pueden enfrentarse a una variedad de enemigos y desafíos de formas creativas y estratégicas.",
+        "El combate en Breath of the Wild es fluido y emocionante, con una variedad de armas y tácticas disponibles para los jugadores. Desde espadas y arcos hasta bombas y poderes mágicos, los jugadores pueden enfrentarse a una variedad de enemigos y desafíos de formas creativas y estratégicas.",
 
-    //     "Con su impresionante diseño artístico, mecánicas de juego innovadoras y mundo abierto expansivo, The Legend of Zelda: Breath of the Wild ha sido aclamado por la crítica y los jugadores como uno de los mejores juegos de la serie y uno de los mejores juegos de todos los tiempos.",
-    //   ],
-    //   systemRequirements: [
-    //     "SO: Windows 7 o superior (64-bit)",
-    //     "Procesador: Intel Core i5-3470 o AMD FX-6300",
-    //     "Memoria: 8 GB RAM",
-    //     "Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon R7 260X",
-    //     "DirectX: 11",
-    //     "Almacenamiento: 13 GB",
-    //   ],
-    //   typeoffer: "665fcb959953ee0ba1099486",
-    // },
+        "Con su impresionante diseño artístico, mecánicas de juego innovadoras y mundo abierto expansivo, The Legend of Zelda: Breath of the Wild ha sido aclamado por la crítica y los jugadores como uno de los mejores juegos de la serie y uno de los mejores juegos de todos los tiempos.",
+      ],
+      systemRequirements: [
+        "SO: Windows 7 o superior (64-bit)",
+        "Procesador: Intel Core i5-3470 o AMD FX-6300",
+        "Memoria: 8 GB RAM",
+        "Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon R7 260X",
+        "DirectX: 11",
+        "Almacenamiento: 13 GB",
+      ],
+      typeoffer: "665fcb959953ee0ba1099486",
+    },
     
     {
       _id: "664695bacf29fe32661290db",
@@ -1330,7 +1330,7 @@ async function seedVideogames() {
       theme: "66484c191593a60f58e0c0a9",
       developer: "6647c8f0d5b0a90daa03fe2d",
       image: [
-        "https://www.mobygames.com/images/covers/l/547415-sekiro-shadows-die-twice-windows-front-cover.jpg",
+        "https://3.bp.blogspot.com/-1h5gyMKxa_8/XJQUc3NgtuI/AAAAAAAAEO0/5URNZce1lqkfe40h0Wf_vwSLosH3d-y-ACKgBGAs/w1024-h1024-p-k-no-nu/sekiro-shadows-die-twice-uhdpaper.com-4K-23.jpg",
         "https://gamingbolt.com/wp-content/uploads/2019/03/Sekiro-Shadows-Die-Twice_03.jpg",
       ],
       cover:
